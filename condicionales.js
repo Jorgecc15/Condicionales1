@@ -7,7 +7,7 @@ let nota3 = Number (prompt("Ingrese su tercera nota"))
 let p = (parseFloat(nota1)+parseFloat(nota2)+parseFloat(nota3))/3;
 alert("Su promedio es: "+ p)
 if (p>6){
-    imgHtml.scr = urlcarafeliz
+    imgHtml.src = urlcarafeliz
 }
 else{
     imgHtml.src = urlcaratriste
